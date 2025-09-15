@@ -35,7 +35,7 @@
 
 <br>
 <p align="center">
-  <img src="/data/ldq/Code/MNCL/imgs/model.png" align="center" width="50%">
+  <img src="https://github.com/dqliua/MNCL/tree/main/imgs/model.png" align="center" width="50%">
   <br>
   Framework of the proposed method. In the cross-modal position recognition stage, we introduce a multi-level
 negative contrastive learning framework to minimize the similarity of different locations at global-level, instance-level, and
