@@ -1,4 +1,4 @@
-🛰️ This repository contains the official implementation of our AAAI 2025 paper: 
+
 <br />
 <p align="center">
 
@@ -35,7 +35,7 @@
 
 <br>
 <p align="center">
-  <img src="https://github.com/dqliua/MNCL/blob/main/imgs/model.png" align="center" width="50%">
+  <img src="https://github.com/dqliua/MNCL/blob/main/imgs/model.png" align="center" width="90%">
   <br>
   Framework of the proposed method. In the cross-modal position recognition stage, we introduce a multi-level
 negative contrastive learning framework to minimize the similarity of different locations at global-level, instance-level, and
