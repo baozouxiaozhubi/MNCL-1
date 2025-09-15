@@ -37,7 +37,7 @@
 <p align="center">
   <img src="https://github.com/dqliua/MNCL/blob/main/imgs/model.png" align="center" width="90%">
   <br>
-  Framework of the proposed method. In the cross-modal position recognition stage, we introduce a multi-level
+In the cross-modal position recognition stage, we introduce a multi-level
 negative contrastive learning framework to minimize the similarity of different locations at global-level, instance-level, and
 relation-level, respectively. This fully leverages the descriptive power of language for spatial localization. In the fine localization
 stage, we use the language query and the retrieved cell to regress the corresponding position.
