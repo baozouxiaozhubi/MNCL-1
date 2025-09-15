@@ -2,7 +2,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">Text to Point Cloud Localization with Multi-Level Neagtive Contrastive Learning</h3>
+  <h3 align="center">Text to Point Cloud Localization with Multi-Level Negative Contrastive Learning</h3>
 
 </p>
 
