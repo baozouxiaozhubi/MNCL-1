@@ -63,6 +63,7 @@ git clone https://github.com/dqliua/MNCL.git
 
 conda create -n mncl python=3.10
 conda activate mncl
+export PATH=~/anaconda3/envs/mncl/bin:$PATH
 
 pip install -r requirements.txt -f https://data.pyg.org/whl/torch-1.12.0+cu113.html
 
