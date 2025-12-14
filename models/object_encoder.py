@@ -11,8 +11,8 @@ import torch.nn.functional as F
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.getcwd(), os.pardir)))
-import torch geometric.nn.conv.point_conv
-from torch geometric.nn.conv.point conv import PointNetConv
+import torch_geometric.nn.conv.point_conv
+from torch_geometric.nn.conv.point_conv import PointNetConv
 torch_geometric.nn.conv.point_conv.PointConv = PointNetConv
 
 
