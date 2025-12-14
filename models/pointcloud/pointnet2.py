@@ -8,6 +8,7 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader
 
 import torch_geometric.nn as gnn
+from torch_geometric.nn.conv.point_conv import PointNetConv
 import torch_geometric.transforms as T
 from models.language_encoder import get_mlp
 
@@ -20,7 +21,7 @@ class SetAbstractionLayer(nn.Module):
         super(SetAbstractionLayer, self).__init__()
         self.ratio = ratio
         self.radius = radius
-        self.point_conv = gnn.PointConv(local_nn=mlp)
+        self.point_conv = PointNetConv(local_nn=mlp)
 
     def forward(self, x, pos, batch):
         subset_indices = gnn.fps(pos, batch, self.ratio)
